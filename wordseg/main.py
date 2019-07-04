@@ -4,7 +4,7 @@ from wordseg import segment_token
 if __name__ == '__main__':
 
 	# set a test token
-	token = "onveuxbien"
+	token = "soitmoinscompliqué"
 
 	result = segment_token(token)
 
