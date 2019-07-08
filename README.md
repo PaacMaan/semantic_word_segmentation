@@ -20,10 +20,10 @@ pip install foobar
 ```python
 from wordseg import segment_token
 
-# set a test token
+# suppose that a french spellchecker detect this token as misspelled
 token = "soitmoinscompliqué"
 
-# apply segmentation fucntion on the given token
+# apply segmentation function on the given token
 result = segment_token(token)
 
 # show results
