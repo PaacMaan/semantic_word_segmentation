@@ -99,6 +99,12 @@ def segment_token(token):
 	list_of_combinations (list): a list of all possible combinations that could be extracted from that toekn 
 	"""
 
+	# we first check if the given token is a correct unigram
+	token_vector = nlp(token)[0]
+	if token_vector.has_vector:
+		return token
+
+
 	# initialize a dict of similarity values and resulted token
 	sim_values = {}
 	separated_tokens = ''

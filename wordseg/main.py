@@ -3,13 +3,15 @@ from wordseg import segment_token
 
 def main():
 	# set a test token
-	token = "soitmoinscompliqué"
+	token = "aimer"
 
 	# apply segmentation fucntion on the given token
 	result = segment_token(token)
 
-	# show results
+	# print raw mispelled token
 	print("raw token is {}".format(token))
+
+	# print correct splitted token
 	print("processed token is {}".format(result))
 
 
