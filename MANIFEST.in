@@ -1,0 +1,6 @@
+include *.ipynb
+include *.txt
+include LICENSE
+recursive-include __pycache__ *.pyc
+recursive-include fr_word_segment *.py
+recursive-include fr_word_segment *.pyc
