@@ -21,9 +21,11 @@ setup(
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.5",
     ],
     packages=["fr_word_segment"],
     include_package_data=True,
+    python_requires='>3.5.2',
     install_requires=["spacy"],
 )

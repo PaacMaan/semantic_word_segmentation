@@ -9,22 +9,22 @@ To deal with this problem, I built a module dealing with semantic word segmentat
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install frwordsegment.
+Use the package manager [pip](https://pypi.org/project/fr-word-segment/) to install fr_word_segment.
 
 ```bash
-pip install foobar
+pip3 install fr-word-segment
+python3 -m spacy download fr
 ```
 
 ## Usage
 
 ```python
-from wordseg import segment_token
-
+from fr_word_segment import wordseg
 # suppose that a french spellchecker detect this token as misspelled
 token = "soitmoinscompliqué"
 
 # apply segmentation function on the given token
-result = segment_token(token)
+result = wordseg.segment_token(token)
 
 # show results
 print("raw token is {}".format(token)) # "soitmoinscompliqué"
