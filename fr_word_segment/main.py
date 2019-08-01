@@ -3,7 +3,7 @@ from wordseg import segment_token
 
 def main():
 	# set a test token
-	token = "soitmoinscompliqué"
+	token = "soitmoinscompliqués"
 
 	# apply segmentation fucntion on the given token
 	result = segment_token(token)

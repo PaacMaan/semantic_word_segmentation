@@ -5,10 +5,30 @@
 .coverage
 
 # setup sdist, test and upload directories
-/dist/
-/fr_word_segment.egg-info/
-/.ipynb_checkpoints/
-/__pycache__
-/fr_word_segment/.ipynb_checkpoints
-
+fr_word_segment.egg-info/
+.ipynb_checkpoints/
+fr_word_segment/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+fr_word_segment/__pycache__/
 .DS_Store
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
