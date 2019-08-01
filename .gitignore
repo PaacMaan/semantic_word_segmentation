@@ -6,7 +6,7 @@
 
 # setup sdist, test and upload directories
 fr_word_segment.egg-info/
-.ipynb_checkpoints/
+# .ipynb_checkpoints/
 fr_word_segment/.ipynb_checkpoints/
 __pycache__/
 *.py[cod]
